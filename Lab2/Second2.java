@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 
 public class Second2 {
+    
     private static Random r = new Random();
     private static Scanner s = new Scanner(System.in);
     public static void ranIn(int t){

@@ -4,10 +4,22 @@ public class Third2 {
     public static void main(String[] args) {
         Scanner skan = new Scanner(System.in);
         System.out.print("Podaj wartosc a: ");
+        while (!skan.hasNextDouble()) {
+            System.out.print("Podaj a typu double: ");               
+            skan.next(); 
+            }
         double a = skan.nextDouble();
         System.out.print("Podaj wartosc b: ");
+            while (!skan.hasNextDouble()) {
+            System.out.print("Podaj b typu double: ");               
+            skan.next(); 
+            }
         double b = skan.nextDouble();
         System.out.print("Podaj wartosc c: ");
+            while (!skan.hasNextDouble()) {
+            System.out.print("Podaj c typu double: ");               
+            skan.next(); 
+            }
         double c = skan.nextDouble();
         if (a == 0) {
             if (b == 0) {
